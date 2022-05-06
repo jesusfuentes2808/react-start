@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/02-intro-javascript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/03-counter-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/03-counter-app - copia" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/04-gift-expert-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/05-hook-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/06-gift-expert-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/07-heroes-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/08-journal-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/09-calendar-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/calendar-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/counter-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gift-expert-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/heroes-app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/intro-javascript" vcs="Git" />
+  </component>
+</project>

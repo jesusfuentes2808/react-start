@@ -1,0 +1,6 @@
+https://jwt.io/
+
+Header Tipo y algoritmo
+Payload Datos
+
+FIRMA

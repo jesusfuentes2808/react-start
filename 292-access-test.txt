@@ -1,0 +1,25 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBowBf1fahpY8-Y-cZAweh66P1Y6a6Pa-E",
+  authDomain: "redux-demo-151c4.firebaseapp.com",
+  projectId: "redux-demo-151c4",
+  storageBucket: "redux-demo-151c4.appspot.com",
+  messagingSenderId: "843801220807",
+  appId: "1:843801220807:web:d5e8fa320746e01d01d0e2"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+
+
+
+
+
+
+
+TEST BD Cambios para testing

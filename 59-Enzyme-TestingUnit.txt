@@ -1,0 +1,26 @@
+
+
+import Enzyme from 'enzyme';
+import Adapter from '@wojtekmaj/enzyme-adapter-react-17';
+import {createSerializer} from "enzyme-to-json";
+
+Enzyme.configure({ adapter: new Adapter() });
+expect.addSnapshotSerializer(createSerializer({mode: 'deep'}));
+
+
+
+
+
+
+https://github.com/wojtekmaj/enzyme-adapter-react-17
+npm install --save-dev @wojtekmaj/enzyme-adapter-react-17
+
+https://enzymejs.github.io/enzyme/
+npm i --save-dev enzyme 
+
+https://www.npmjs.com/package/enzyme-to-json
+npm install --save-dev enzyme-to-json
+
+https://react-hooks-testing-library.com/installation
+npm install --save-dev @testing-library/react-hooks
+

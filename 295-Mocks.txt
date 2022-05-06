@@ -1,0 +1,21 @@
+Mock: reemplazan a las funciones para darle un retorno personalizado y asi poder verificar si se estan registrando de manera correcta
+
+Ejemplo de funcion con retorno y de funcion y retorno en test
+
+
+jest.mock('../../helpers/fileUpload', () => ({
+    fileUpload: jest.fn(),
+    /*fileUpload: jest.fn(() => {
+        return Promise.resolve('https://hola-mundo.com/cosa.png');
+    }),*/
+}));
+
+
+        fileUpload.mockReturnValue('https://hola-mundo.com/jjjj');
+        try{
+            fs.writeFileSync('foto.jpg', '');
+            const file = fs.readFileSync('foto.jpg');
+            await store.dispatch(startUploading(file));
+        } catch(error){
+            console.log('error');
+        }

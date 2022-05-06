@@ -1,0 +1,5 @@
+https://mongoosejs.com/
+ npm install mongoose --save
+
+ user: mern
+ pass: mern

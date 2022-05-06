@@ -1,0 +1,5 @@
+npm i nodemon -g
+// Global instalar como admin -g
+npm i express
+
+npm dotenv

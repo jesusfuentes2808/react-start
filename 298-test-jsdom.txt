@@ -1,0 +1,3 @@
+npm install --save-dev --save-exact jsdom jsdom-global
+
+import 'jsdom-global/register';
