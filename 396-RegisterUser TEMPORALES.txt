@@ -1,0 +1,23 @@
+CUANDO REGISTRAMOS USUARIOS DEBEMOS VER LA FORMA DE ELIMINARLOS
+SIMULAR RESPUIESTA DE FUNCION como un tubo
+
+import * as fetchModule from '../../helpers/fetch'
+
+
+test('startRegister correcto', async()=> {
+        fetchModule.fetchSinToken = jest.fn(() => ({
+            json() {
+                return {
+                    ok: true,
+                    uid: '123',
+                    name: 'hla',
+                    token: 'ABC 123'
+                }
+            }
+        }));
+
+        await store.dispatch(startRegister('jesusfuentes111112808@gmail.com', '123456', 'test'));
+        const actions = store.getActions();
+        console.log("action");
+        console.log(actions);
+    });

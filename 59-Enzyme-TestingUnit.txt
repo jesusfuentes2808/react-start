@@ -24,3 +24,11 @@ npm install --save-dev enzyme-to-json
 https://react-hooks-testing-library.com/installation
 npm install --save-dev @testing-library/react-hooks
 
+
+12052022 CAMBIO
+https://github.com/reduxjs/redux-mock-store
+
+
+https://www.npmjs.com/package/redux-mock-store
+npm install redux-mock-store --save-dev
+

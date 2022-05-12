@@ -1,0 +1,15 @@
+https://dashboard.heroku.com/apps/nodejs2808
+
+Verificar que npm start funcione
+
+instalar heroku git
+
+https://devcenter.heroku.com/articles/heroku-cli
+
+npm install -g heroku
+heroku login
+ heroku git:clone -a mern-calendar-jfc 
+
+git add .
+git commit -m "V1"
+git push heroku master
